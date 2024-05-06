@@ -1,0 +1,225 @@
+:root{
+  --green:#183c28;
+  --white:#ffffff;
+  --maize:#183c28;
+  --black:#040f0f;
+  --light-bg:#bebfc4;
+  --light-grey: #5b5c55;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: .2s linear;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body{
+  background-color: var(--light-bg);
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: .3rem;
+  background-color: var(--green);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 1rem 3rem;
+}
+
+.btn:hover{
+  background-color: var(--light-bg);
+  color: var(--green);
+}
+
+.home-section{
+  margin: 2.5rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--white);
+  text-transform: uppercase;
+  width: 600px;
+}
+
+.img-round{
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  text-align: center;
+  margin: 2rem auto 2rem auto;
+  border-radius: 50%;
+}
+
+
+.block{
+  text-align: center;
+  background-color: var(--white);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.block-item{
+  text-align: center;
+  background-color: var(--light-bg);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 10px 20px 10px;
+  height: 200px;
+  justify-content: space-between
+}
+
+img{
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+}
+
+p{
+  color: var(--black);
+}
+
+.navbar{
+  margin-left: 2rem;
+  color: var(--maize);
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.navbar:hover{
+  color: var(--green);
+}
+
+.navbar a{
+  padding: auto 20px;
+}
+
+#name{
+  color: var(--white);
+}
+
+.bright-or-dark{
+  color: var(--green);
+  font-size: 1.5rem;
+}
+
+h3{
+  color: var(--green);
+  font-size: 70%;
+}
+
+h1{
+  color: var(--black);
+}
+
+ul {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  list-style-type: none;
+  margin: 15px auto 0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a{
+  justify-content: center;
+  color: var(--green);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 auto;
+
+}
+
+li a:hover {
+  color: var(--green);
+  border-radius: 50%;
+}
+
+span{
+  color: var(--green);
+}
+
+.services .slide{
+  background-color: var(--light-bg);
+  border-radius: .5rem;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  user-select: none;
+}
+
+.services .slide img{
+  height: 2rem;
+}
+
+.services .slide h3{
+  margin: 1.5rem;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.services .slide p{
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-bg);
+}
+
+.swiper-pagination-bullet{
+  background-color:var(--black) ;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--green);
+}
+
+.heading{
+  padding-bottom: 30px;
+}
+
+/* .list{
+  list-style: none;
+  padding-left: 0px;
+} */
+
+/* div{
+  text-align: center;
+} */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .block {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .block {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .block {
+    width: 300px;
+  }
+}
