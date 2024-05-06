@@ -149,7 +149,7 @@ li a{
 }
 
 li a:hover {
-  color: var(--green);
+  color: var(--maize);
   border-radius: 50%;
 }
 
